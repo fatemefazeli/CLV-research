@@ -1,0 +1,191 @@
+\documentclass{article}
+
+\title{Customer Lifetime Value}
+\author{Fateme Fazeli-Asl \\
+Mohaddese Mohammadi}
+%landscape
+\usepackage{pdflscape}
+%change paper size
+\usepackage{typearea}
+%table
+\usepackage{longtable}
+\usepackage{lipsum}
+
+%margin
+\usepackage{geometry}
+
+\begin{document}
+\maketitle
+
+
+\begin{abstract}
+Customer Lifetime Value is  one of the important indexes for ranking organization customers.
+\end{abstract}
+
+\section{Introduction}\label{sec.Intro}
+
+\section{Literature review}\label{sec.review}
+\par The ability to identify profitable customers and build long-term loyalty with them is a key factor in today’s highly competitive business environment. To achieve this goal, companies have adopted the concept of Customer Relationship Management (CRM) as a business strategy to integrate their sales, marketing and services across multiple business units and customer contact points. Under the concept of CRM, customers are not equal and, thus, it is unreasonable for the company to provide the same incentive offers to all customers (Cheng 2012). Instead, companies can select only those customers who meet certain profitability criteria based on their individual needs or purchasing behaviors (Dyche 2001). Precise evaluation of customer profitability is a crucial element for the success of CRM (Lee 2005).CLV is a core metric in customer relationship management that can be used to improve market segmentation and resource allocation, evaluate competitors, customize marketing communication, optimize the timing of product offerings, and determine a firm’s market value (Dahana et al., 2019).Chun-Wei and Ijose (2016) argued that the measurement of CLV provides a valuable guideline to the business in the following area: (a) strategy development, (b) customer targeting, (c) channel preferences, and (d) customer segmentation.
+\par Customer loyalty has become a major source of competitive advantage because it has a powerful impact on a company’s performance and has emerged as a necessary and ideal factor for success in the service industry (Kandampully et al. 2015; Tanford 2016). Loyalty programs are one of the most evident and lucrative investments in marketing that intends to increase customer loyalty and maintain competitive advantage (McCall 2015; Sulga and Tanford 2018).
+\par
+
+\null
+
+\KOMAoptions{paper=a3}
+\recalctypearea
+
+\newgeometry{left=3cm,bottom=1cm,top=0.1cm,right=1cm}
+\begin{landscape}
+
+
+
+%\begin{table}[]
+  \begin{center}
+    \begin{longtable} [t]  {|p{2cm}|p{4cm}|p{3cm}|p{3cm}|p{4cm}|p{8cm}|p{1cm}|}
+ \hline
+ \textbf{article} &\textbf{objectives}&\textbf{case study}&\textbf{data mining techniques}&\textbf{findings}&\textbf{recommendation}&\textbf{focus of study} \\ [0.5ex] 
+ \hline
+AboElHamd 2021
+&Propose two model that the former combined Fuzzy logic with Q-learning while the latter combined Neutrosophic logic with Q-learning to developing Q-Learning models that maximize CLV&General Dataset from Kaggle&Fuzzy Q-Learning and
+Neutrosophic Q-Learning
+&The proposed algorithms proved their effectiveness and superiority when comparing them to each other or the traditional deep Q-learning models&- an advanced version of each algorithm might be applied,
+
+- Furthermore, the parameters of Fuzzy and Neutrosophic logic can be optimized using one of the optimization algorithms
+
+- Another direction is to combine deep reinforcement learning with neutrosophic Q-learning, to avoid the main drawback of overestimating the action values generated from one of the most popular deep reinforcement learning algorithms
+
+- to apply the proposed models on other datasets or applications to test their robustness and reliability.
+&CLV\\ [14mm]
+ \hline
+ Taiwan
+
+cheng2012
+&establish a framework for computing customer lifetime values for a company in the auto repair and maintenance industry&Historical customer transactions of an auto repair and maintenance company in Taiwan&- Markov chain based data
+mining model
+
+- logistic regression
+
+- decision tree model
+
+- neural networks
+&estimate the churn probability of a customer, 
+predict the lifetime length of the customer,
+identify the critical variables that affect a customer’s purchasing behavior,
+predict the profits contributed by a customer under various purchasing behaviors
+&investigating simulation techniques, such as a system dynamic or Petri net, to model a customer’s future purchasing behavior&CLV\\ [14mm]
+ \hline
+ Marisa2019
+& Study the customer lifetime value model in Small and Medium Enterprises (SMEs) using k-means clustering and IRFM model & SME data sales & K-Means clustering algorithm & The highest-ranking among the 2 clusters with a CLV value is higher than the average for other clusters on the basis on the LRFM matrix. This cluster has a high loyalty value. & Further research can consider using different clusters with one method and compared them & CLV\\[14mm] 
+ \hline
+ Tarokh 2017
+ &establish a new framework to speculate customer lifetime value by a stochastic approach&the customer demographic data and historical transaction data in a composite manufacturing company in Iran&Markov chain Clustering
+&predict future behavior of the customer and as a result, estimate future value of different customers. & represent a CLV model by the approach of fuzzy Markov chain model, which would be able to classify the behavior of customers based on fuzzy approach.develop a personalized marketing strategy for each customer based on the measured CLV.
+ & CLV future behavior of the customer
+\\[14mm] 
+\hline
+ghimiri 2019
+&propose a CLV model to assess the Customer Lifetime Value in the retail grocery context utilizing customer retention rate, contribution margin, and discounted rate
+
+&Dataset from Dunnhumby, a market research firm based out of Cincinnati, Oh USA&quantitative correlational and multiple regression analysis&investigate the strength and direction of the relationship between CLV and marketing mix elements: price, promotional price, and coupon discounted price of grocery products&access the relationship between additional marketing factors as examined by past researchers including customer loyalty, distribution channels, multichannel purchasing, and customer satisfaction.&CLV\\ [14mm]
+\hline
+ RFM consumer’s behavior
+&data from customer and transaction databases of a department&clustering analysis Artificial Neural Network SOM method
+&clustering analysis can locate high value customers, and appropriate target marketing can enhance their lifetime value effectively&(1) Consumer’s satisfaction can be studied by telephone interview or questionnaire on cluster 1 (high loyalty) to be an important reference for maintaining those customers;
+(2) This study aims to the recommended quality assess on clustering. The deeper assessment of recommended quality on specific product, such as cosmetics, is another way for advanced study;
+(3) This study employs the customers data and consumer’s records of purchase of the general merchandise industry as a real case study, the study in different industries will have different problems. So, CLV elevation in different industries is a future direction for further study.
+&CLV\\ [14mm] 
+\hline
+ jeroen 2021
+&focuses on determining the best method for predicting the customer lifetime value in a business-to-business context, It aims to give a clear comparison between different prediction methods and rank them based on predictive power&The data is collected via the sales channels of Microsoft Netherlands.&logistic regression,
+classification tree, random forest, neural network, and a support vector machine
+&The customer-firm relationship length, -breadth and depth all increase the customer lifetime value, directly or indirectly, and are therefore important drivers best method to predict the customer lifetime value in a contractual B2B context is a combination of a logistic regression for the churn part and a linear regression for the revenue part
+&implement the use of combined logistic- and multiple linear regression models to predict the customer lifetime value for managerial recommendations and academic recommendations, 
+the effect of behavioral concepts could be assessed on the industry level  
+the use of a quantile regression rather than an OLS regression,
+replication of this study within another B2B context to see if the results are generalizable across industries
+&CLV\\ [14mm] 
+\hline
+ Direct Selling Company &(a) to identify the significant factors that affect customer churn in a direct selling company,
+(b) to identify the significant factors that affect customer profit contribution in a direct selling industry, 
+(c) to develop a model that can be used to predict customer lifetime value in a direct selling company
+&Date from leading direct selling company in the Philippines that sells fashion items&Logistic Regression Analysis , Multilayer Perceptron Neural Network,
+Markov Chain Analysis
+&With the use of Binomial Logistic Regression, the researchers identified that the Average Expense per Visit and Average Return per Visit are the significant factors that affect customer churn in a direct selling industry. The Binomial Logistic Regression Analysis was found to have a good prediction accuracy in classifying churn and not-churn customers which is 94.1\%.
+With the use of Multiple Linear Regression, the researchers identified that Position, Frequency of Visit per Month, Expense per Visit, Discount per Visit, and Return per Visit are the significant factors that affect customer profit contribution. The Multiple Linear Regression  model generated from the analysis was found to have a good fit of data.
+The predictive model can be used by the company to compute for the Customer Lifetime Value of each customers.
+&the Data Mining techniques used in this study such as Binomial Logistic Regression, Multiple Linear Regression, and Multilayer Perceptron Neural Network can be improved for more accurate results by integrating other data mining techniques such as Support Vector Machine (SVM)
+A bigger sample size and a larger time scope can be used as input for the study to increase the accuracy of the results of the model. The study can also include different companies with similar line of business to make the result generalized for the whole direct selling industry under the garments line of products &CLV\\ [14mm]  
+\hline
+  Smutny2019 &focuses on the prediction of selected models in noncontractual ecommerce environment which is the current topic both in local and global context&The datasets for the comparative analysis of the models originate in selected Czech and Slovakia online stores.&&The main finding is that no single model has outperformed the rest in all selected evaluation criteria.&For future research, the authors would encourage to work on the concerns and limitations raised in this paper. One of the concerns in the model evaluation was the Pareto/NBD (Abe M2) model that incorporated covariates but hasn’t demonstrated improved performance in comparison with Pareto/NBD (Abe). Selection and evaluation of individual covariates could be a focus of future research, especially in the context of seasonality and computational requirements and difficulties. Finally, a further opportunity to better capture the underlying customer behavior could be seen in a combination of different models. Evaluation of Pareto/NBD with Pareto/GGG, introduced in 2016 to incorporate interpurchase timing as a regularity sub model, led to positive results. Evidently, ensemble learning could improve the model in the next stage.&CLV\\ [14mm]    
+\hline
+khajvand2011
+&Customer segmentation is one of the CLV applications&Date from health and beauty company that manufactures shampoo, soaps and etc.&K-means&Clustering customers into different groups helps decision-makers identify market segments more clearly and thus develop more effective marketing and sale strategies for customer retention&By analyzing the CLV rank of segmented customer groups, we can develop refined marketing strategies for each segment&\\ [14mm]     
+\hline 
+Can we predict customer lifetime value?
+ &Examine the evolution of behavioral loyalty from a longitudinal perspective and loyalty program members for customer lifetime value.&casino and hotel resort&time series&There is a positive relationship between loyalty programs and company profitability.&replication of this study is necessary due to its uniqueness. Repeating this study with a different sample among diverse businesses in the hospitality industry would assist in establishing the external generalizability or applicability of the results. Moreover, future studies should investigate additional variables other than visit frequency&Loyalty and CLV
+\\ [14mm]       
+\hline
+ Andreea barbu 
+bogdon
+&to highlight the value of the services and the customer lifetime value, focusing on the benefits of the customer lifetime value research study on determining some marketing strategies used in the services sector&cinema from Bucharest&&The values obtained in this paper after studying the usage of a loyalty strategy highlight the importance of implementing such a strategy in the service sector. The final results demonstrated that in customer loyalty phase, the value of customers was increased by 25,78 percent than that obtained in the attraction phase.&&\\ [14mm]
+\hline
+Time Series
+&Markov Chain model was suggested to check the general picture of the ongoing processes from the long-term perspective. On the other hand, Time Series revenue forecasting with Survival Analytics lifespan estimates could be used to check the expectations for the nearest feature.&1. To check other time series analysis approaches: classical - Facebook Prophet,
+VARMAX, Holz-Winter, and RNN – LSTM, seq2seq, ES-RNN, DeepAR etc.
+2. To explore ARIMAX/SARIMAX models to be able to check the performance of multivariate time series and compare the obtained results with my current state of art model, including public holidays, school vacation, store location, and festivals nearby, shop holidays, fasting and abstinence as exogenous variables.
+3. To explore time series approaches to predict revenue on customer level when the data is intermittent: Croston’s and Bootstrapping methods (Teunter and Duncan, 2009).
+4. To predict churn using machine learning approaches such as logistic regression, binary classification with XGBoost, SVM, Random Forest, etc.
+5. To segment customers based on their revenue and then include their taste features.
+6. To extend modeling to other stores.
+7. To develop interactive visualization of results in Dash (a visualization framework with a Python backend).
+&CLV\\[14mm] 
+\hline
+ predict customer lifetime values and segmentation&Sales transactions from a telecommunications company based in Anchorage&Linear Regression and Logistic Regression and Naive Bayes &It is seen from customer segmentation based on predicted CLTV, that about 17\% customers contribute to almost 50\% of the Value. This is the segment that should be targeted by the marketing team. These customers should be nurtured so that they continue with the company and efforts should be made to increase their CLTV.&&CLV\\[14mm] 
+\hline
+ A Big Data analytics approach&to understand how consumer personality traits relate to the country-of-origin (COO) traits (brand personality) of beer brands, and to predict potential customer lifetime value (CLV).&from the point of sale (POS) database of the city'super specialty store, a retailer in Hong Kong&clustering&consumers tend to purchase and co-purchase brands with traits similar to their own personality traits (i.e., Japan—peacefulness, Belgium—openness, Ireland—excitement, etc.). Significantly, customers with the group of personality traits associated with “peacefulness” and “openness” were the most profitable customers among the five analyzed clusters&future research could extend the application of multidimensional scaling and/or associative analyses beyond quantitative and structured data consumer transactions to include text mining and unstructured apparatuses such as blogs, online reviews, and formal news articles to allow businesses to better understand recent discussion online, the competitive landscape, marketing opportunities, and proprietary&brand personality and CLV
+\\ [14mm]
+\hline
+a comparative cross-country study & to identify whether customer satisfaction and customer loyalty are CLV drivers and to explore how to enhance a firm’s CLV from the perspective of cross cultural comparison research&the usage of mobile data services, 846 samples from China and 689 from the US&&customer satisfaction is not a driver of CLV, but customer loyalty is; nationality is partially a significant factor in CLV enhancement and should be considered in the formation of a firm’s marketing strategy with respect to CLV.&to continue and complete this analysis by including other factors such as customer trust and customer commitment.to get the help from carriers and services providers and obtain users’ actual usage data of mobile data services&customer loyalty and customer satisfaction and CLV
+\\ [14mm]
+\hline
+Dachyar2019 &to provide some tactical steps for Indonesian local brand fashion e-commerce in order to improve their customer loyalty based on CLV segmentation&3 transaction datasets from 3 different local brand fashion e-commerce in Indonesia&K-Means clustering&from 3 Indonesian local brand fashion e-commerce have 5 customer groups based on CLV ratings, namely best, valuable, potentially valuable, average, and potentially invaluable customers. The strategic steps that can be taken by the company to improve the potentially valuable, average, and potentially invaluable customers are by maintaining customer convenience and increasing customer trust through the company's image and customer service quality performance.&to use other algorithms to perform customer segmentation. Apart from that, research can also be developed to identify important factors that influence customer loyalty regarding the quality of online customer service.&CLV\\  [1ex] 
+ \hline
+  \end{longtable} 
+  \end{center}
+%\end{table}
+
+
+\end{landscape}
+\restoregeometry
+
+\KOMAoptions{paper=a4}
+\recalctypearea
+
+
+\par Customer relationship management (CRM) is the tool to enhance customer relationship in any business (Singh 2020); and CLV is the measure of calculate customer profit in companies. Customer relationship management treats CLV as the most significant factor for measuring the level of purchases and, consequently, the profitability of a given customer. This motivates researchers to compete in developing models to maximize the value of CLV (AboElHamd 2021). Data mining techniques and Machine learning could bring a catalytic change in business. The use of data mining techniques to predict, calculate and using clv, has been found in literature. Chuang et al (2008) applied data from customer and transaction databases of a department store, based on RFM model to do clustering analysis to recognize high value customer groups for cross-selling promotions. Study findings show that clustering analysis can locate high value customers, and appropriate target marketing can enhance their lifetime value effectively. Cheng et al (2011) proposed framework for computing customer lifetime values by a Markov-chain based data mining model for a company in the auto repair and maintenance industry. Khajvand et al (2011) used customer lifetime value to customer segmentation of a health and beauty company. Tarokh et al (2017) established a new framework to speculate customer lifetime value by a stochastic approach. In their research the customer lifetime value is considered as combination of customer’s present and future value. Marisa et al (2019) obtained Customer Lifetime Value (CLV) in each customer segment. Grouping uses the K-Means Clustering method based on the LRFM model (Length, Recency, Frequency, Monetary). Ghimiri et al (2019) proposed a CLV model to assess the Customer Lifetime Value in the retail grocery context utilizing customer retention rate, contribution margin, and discounted rate. Using the proposed CLV model at the customer level, we investigate the strength and direction of the relationship between CLV and marketing mix elements: price, promotional price, and coupon discounted price of grocery products.  AboElHamd et al (2021) Proposed two model that the former combined Fuzzy logic with Q-learning while the latter combined Neutrosophic logic with Q-learning to developing Q-Learning models that maximize CLV. Past research also focused on the impact of varying customer relationship attributes; such as customer satisfaction, loyalty, relationship length and relationship duration on CLV (ghimiri 2019). Many research papers have been published on the effect of customer satisfaction and customer loyalty on customer profitability which is related to customer lifetime value (Yin 2012). Yin et al (2012) identified whether customer satisfaction and customer loyalty are CLV drivers and to explore how to enhance a firm’s CLV from the perspective of cross-cultural comparison research.Dachyar et al (2019) identified the loyalty level of an electronic customer based on Customer Lifetime Value (CLV) of the customer segmentation and design the CLV improvement. Customer segmentation performed using the K-means algorithm and RFM analysis.Barba et al (2018) highlighted the value of the services and the customer lifetime value, focusing on the benefits of the customer lifetime value research study on determining some marketing strategies used in the services sector.  they also presented a loyalty strategy using cards utilized by a cinema that applies a Customer Relationship Management program to determine the customer lifetime value in the three stages of the customer’s lifecycle.
+
+
+\section{Research Methology}\label{sec.Model}
+\par As reviewd in subject literature, the relation between customer lifetime value and customer loyalty hasn't investigate through many previose researchs. Naowadays companies look for every way to decrease their costs while increasing profits. One can bring down extra costs is analyse the money waste place during all activites specially marketing and advertisments. Companies and researchers act against them using segmentation customers based on various criteria such as profitability, frequency, lifestyle, loyalty, customer lifetime value and etc. They more just paid attention to one of existed criteria and take marketing strategic based on achived results. Actually maybe if one criteria has positive effect on decreasing marketing cost doesn't have the same effect combining with another criteria. During the present paper we will predict customer loyalty and customer lifetime value then outcomings will compare with together in according with suggested framework. The main questions of the paper is as following:
+
+\begin{itemize}
+  \item What does the CLV predict for future?
+  \item Whether customer with high CLV is identified as loyal customer or not?
+  \item Can type of product affects on CLV and loyalty?
+\end{itemize}
+
+\par predicting customer lifetime vale:
+The famouse formulation of CLV calculating is net present value of earned cash flows of customers during their life in a company. It's easy to calculate CLV just for present but it's not for future. Therefore this paper concentrate on predict CLV in the future using  data mining techniqes. First step is collecting customer historical data that include the most infleuncial featurse on CLV. It means that the company must already recorded featurse of customers with high probabilistic influence on earning profit from customer. Another important aspect of this step is time horizon of customers historical data. The data at least must include more than one year of customers transactions. It's for reason that we can't determine a reliable customer behaviour pattern just with customer activities for a few months during a company and these are not enough.Absolutely the customers database include null values for some featurse per some customers, so the second step is cleaning and preprocessing database using different methods. Therefore this step is extremely crucial since every component of customers transactions database has an effect on outcomes and lack or delete them may result in low accuracy of machine learning models. After preparation data we will analyse them for descovering the behavoire of customers during their life in system. It is worth noting that we can't account to customers activities as deterministic because of continuoused rapid changing in customers features. So we must look for a way to calculating the probability of customer behavior changing. Final CLV will calculate by multiply three parameters name customer profit, customer lifetime and probability of customer behavior changing. This paper focuces on scenario based method for identifying the probability. Each scenarios produce based on basic database utilizing data analysis on one features that is cause of customer existence in the company. Most of the time buying a product or using a service is the main reason to remaining customers and customers behavior will change between different product/service of a company, so we consider probability of choosing product by customers in this paper.
+
+\par costomer loyalty:
+\par
+\par compare loyalty and customer lifetime value:
+Maybe most pepole belive  that CLV have determiner role positive on customer loyalty. In the mining that, customers with high CLV score are usually loyal. How true this sentence is? We will answer it during the paper. 
+\section{Implementing methology}\label{sec.Example}
+
+\section{Conclusion}\label{sec.Conclusion}
+
+\section*{acknowledge}
+
+
+\end{document}
